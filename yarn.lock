@@ -147,6 +147,11 @@
   "resolved" "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.9.tgz"
   "version" "7.0.9"
 
+"@types/node@^18.0.0":
+  "integrity" "sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA=="
+  "resolved" "https://registry.npmjs.org/@types/node/-/node-18.0.0.tgz"
+  "version" "18.0.0"
+
 "@types/parse-json@^4.0.0":
   "integrity" "sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA=="
   "resolved" "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz"
@@ -1382,6 +1387,11 @@
   "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   "version" "4.17.21"
 
+"lottie-web@^5.8.1":
+  "integrity" "sha512-bSs1ZTPifnBVejO1MnQHdfrKfcn02YTCmgOh2wcAEICqRA0V7GzDh8FnwXY6+EzT+i8XOunaIloo/5xC5YNbsA=="
+  "resolved" "https://registry.npmjs.org/lottie-web/-/lottie-web-5.9.4.tgz"
+  "version" "5.9.4"
+
 "lru-cache@^6.0.0":
   "integrity" "sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA=="
   "resolved" "https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz"
@@ -1422,9 +1432,9 @@
     "brace-expansion" "^1.1.7"
 
 "minimist@^1.1.1":
-  "integrity" "sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw=="
-  "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz"
-  "version" "1.2.5"
+  "integrity" "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q=="
+  "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
+  "version" "1.2.6"
 
 "ms@2.1.2":
   "integrity" "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
@@ -2123,7 +2133,7 @@
     "@volar/shared" "0.29.8"
     "vscode-vue-languageservice" "0.29.8"
 
-"vue@^3.0.0", "vue@^3.2.25", "vue@>= 3", "vue@3.2.28":
+"vue@^3.0.0", "vue@^3.2", "vue@^3.2.25", "vue@>= 3", "vue@3.2.28":
   "integrity" "sha512-U+jBwVh3RQ9AgceLFdT7i2FFujoC+kYuGrKo5y8aLluWKZWPS40WgA2pyYHaiSX9ydCbEGr3rc/JzdqskzD95g=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.28.tgz"
   "version" "3.2.28"
@@ -2133,6 +2143,13 @@
     "@vue/runtime-dom" "3.2.28"
     "@vue/server-renderer" "3.2.28"
     "@vue/shared" "3.2.28"
+
+"vue3-lottie@^2.2.5":
+  "integrity" "sha512-r9J5mSJpKjHmwf8OE2sFl3Xi7vRm+F8IDArMBGddLjKxXmFh2PZhdNR85faHt1/MBWLjPjLlKU5VR0N+l1yF8Q=="
+  "resolved" "https://registry.npmjs.org/vue3-lottie/-/vue3-lottie-2.2.5.tgz"
+  "version" "2.2.5"
+  dependencies:
+    "lottie-web" "^5.8.1"
 
 "which@^2.0.1":
   "integrity" "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA=="

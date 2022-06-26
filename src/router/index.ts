@@ -9,10 +9,12 @@ const routes = [
   {
     path: '/',
     meta: { title: 'Home' },
+    name: 'Home',
     component: Home,
   },
   {
     path: '/about',
+    name: 'about',
     meta: { title: 'About' },
     component: About,
     // example of route level code-splitting

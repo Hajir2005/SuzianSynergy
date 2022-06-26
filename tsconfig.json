@@ -6,12 +6,16 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
     "moduleResolution": "node",
     "isolatedModules": true,
     "strict": true,
     "jsx": "preserve",
     "sourceMap": true,
     "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "lib": ["esnext", "dom",
       "dom.iterable",
       "scripthost"],
